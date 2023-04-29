@@ -1,4 +1,4 @@
-/**
+/** 2
  * This is eager initialization concept where
  * as soon as JVM start the object will be created irrespective whether it got accessed by
  * any code in application or not.

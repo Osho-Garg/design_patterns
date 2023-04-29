@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-/**
+/** Breaking the Singleton Design Patter
  * Let's say your singleton has implemented serialization. Now what will happen if you serialize object and deserialize.
  * During deserialization it will create the new object every time if we go in traditional way.
  * To resolve it add readResolve method which will ensure that during deserialize we return same instance.

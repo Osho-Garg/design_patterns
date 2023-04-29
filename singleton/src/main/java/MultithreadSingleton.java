@@ -1,4 +1,4 @@
-/**
+/** 3
  * As mentioned in Lazy Initialization if our get instance method invoked by two thread at the
  * same time then there are chances that two objects created, and we violate singleton pattern.
  * To avoid we have two choices :

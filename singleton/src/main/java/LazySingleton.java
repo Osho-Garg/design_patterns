@@ -1,6 +1,6 @@
 import java.io.Serializable;
 
-/**
+/** 1.
  * Lazy initialization mean application will create instance when it is requested.
  * However, this can be used when you have non-thread-safe application. If used in multi threading it might break,
  * Why? because your getinstance method if invoked by two thread at same time then!!!!
